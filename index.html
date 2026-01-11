@@ -3,74 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MonoLearn — Courses</title>
+  <title>MonoLearn — Learn Anything</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="page">
+<body>
   <div class="bg" aria-hidden="true"></div>
-  <header class="topbar">
-    <div class="brand">MonoLearn</div>
-    <nav class="topbar__nav">
-      <a href="index.html">Courses</a>
-      <a href="course.html">Course view</a>
-      <a href="lesson.html">Lesson view</a>
-    </nav>
-    <button class="ghost" id="continue-button" type="button">Continue</button>
-  </header>
 
-  <main class="container">
+  <main class="shell">
     <section class="hero">
-      <div>
-        <p class="eyebrow">Learning platform</p>
-        <h1>Search for courses, modules, and lessons.</h1>
-        <p class="subtext">
-          Structured learning built from a single content layer. Search the library, filter
-          by category and tags, and continue exactly where you left off.
-        </p>
-      </div>
-      <label class="search" for="global-search">
+      <p class="hero__eyebrow">MonoLearn · Curated learning pages</p>
+      <h1>What do you want to learn today?</h1>
+      <p class="hero__sub">
+        Type a topic, explore focused pages, and keep your learning calm, intentional, and
+        black &amp; white.
+      </p>
+
+      <label class="search" for="search-input">
         <span>Search anything you want to learn</span>
         <div class="search__field">
-          <input id="global-search" type="search" placeholder="Try welding, astronomy, UX" />
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Try welding, astronomy, or UX design"
+            autocomplete="off"
+          />
           <button type="button" id="clear-search">Clear</button>
         </div>
       </label>
     </section>
 
-    <section class="filters">
-      <div>
-        <label for="category-filter">Category</label>
-        <select id="category-filter"></select>
-      </div>
-      <div>
-        <label for="difficulty-filter">Difficulty</label>
-        <select id="difficulty-filter"></select>
-      </div>
-      <div>
-        <label for="sort-filter">Sort</label>
-        <select id="sort-filter">
-          <option value="difficulty">Beginner → Advanced</option>
-          <option value="newest">Newest</option>
-          <option value="shortest">Shortest</option>
-        </select>
-      </div>
-      <div class="tag-filter" id="tag-filter"></div>
-    </section>
-
     <section class="results">
       <div class="results__header">
-        <h2>Discovery</h2>
+        <h2>Learning pages</h2>
         <p id="results-count">0 results</p>
       </div>
-      <div class="results__grid" id="results-grid">
-        <div class="card skeleton"></div>
-        <div class="card skeleton"></div>
-        <div class="card skeleton"></div>
-      </div>
+      <div class="results__grid" id="results-grid"></div>
     </section>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-  <script type="module" src="js/app.js"></script>
+  <title>FlowLearn — Learn Anything, Smoothly</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg">
+    <span class="orb orb--one"></span>
+    <span class="orb orb--two"></span>
+    <span class="orb orb--three"></span>
+  </div>
+
+  <header class="nav">
+    <div class="logo">FlowLearn</div>
+    <nav class="nav__links">
+      <a href="#tracks">Tracks</a>
+      <a href="#community">Community</a>
+      <a href="#resources">Resources</a>
+    </nav>
+    <button class="nav__cta">Start Learning</button>
+  </header>
+
+  <main class="hero">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Welcome back, curious mind ✨</p>
+      <h1>Learn gently, grow boldly.</h1>
+      <p class="hero__subtitle">
+        A calm, flowing space for focused study. Search topics, save your path, and
+        watch your progress ripple forward.
+      </p>
+
+      <form class="search" role="search">
+        <input type="search" placeholder="Search: design systems, AI, history, language..." />
+        <button type="submit">Explore</button>
+      </form>
+
+      <div class="hero__stats">
+        <div>
+          <strong>320+</strong>
+          <span>Curated learning paths</span>
+        </div>
+        <div>
+          <strong>18K</strong>
+          <span>Active learners</span>
+        </div>
+        <div>
+          <strong>4.9★</strong>
+          <span>Community rated</span>
+        </div>
+      </div>
+    </div>
+
+    <aside class="hero__panel">
+      <div class="panel__card panel__card--primary">
+        <h3>Today’s flow</h3>
+        <p>15-minute micro-lessons curated to match your focus.</p>
+        <div class="panel__progress">
+          <div class="panel__progress-bar" aria-hidden="true"></div>
+          <span>60% complete</span>
+        </div>
+        <button class="panel__button">Resume Path</button>
+      </div>
+      <div class="panel__card panel__card--secondary">
+        <h4>Next up</h4>
+        <ul>
+          <li>Design for clarity — 8 min</li>
+          <li>AI tools workflow — 12 min</li>
+          <li>World history quick map — 10 min</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <section class="tracks" id="tracks">
+    <h2>Choose your learning stream</h2>
+    <div class="tracks__grid">
+      <article class="track">
+        <h3>Creative Momentum</h3>
+        <p>Visual storytelling, branding, and digital craft.</p>
+      </article>
+      <article class="track">
+        <h3>Deep Focus Tech</h3>
+        <p>Code fundamentals, AI literacy, and system thinking.</p>
+      </article>
+      <article class="track">
+        <h3>Human & Culture</h3>
+        <p>History, language, philosophy, and modern society.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="community" id="community">
+    <div>
+      <h2>Flow with your community</h2>
+      <p>Join study rooms, co-learn in quiet sessions, and celebrate weekly wins.</p>
+    </div>
+    <button class="community__cta">Join a Room</button>
+  </section>
+
+  <section class="resources" id="resources">
+    <h2>Resource library</h2>
+    <div class="resources__list">
+      <div class="resource">Guided playlists</div>
+      <div class="resource">Study rituals</div>
+      <div class="resource">Skill check-ins</div>
+      <div class="resource">Notes vault</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>FlowLearn © 2024 — Learn in your rhythm.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
