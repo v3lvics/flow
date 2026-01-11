@@ -21,6 +21,23 @@ export const enablePageTransition = () => {
   });
 };
 
+export const enableAmbientBackground = () => {
+  const handleMove = (event) => {
+    const { innerWidth, innerHeight } = window;
+    const x = (event.clientX / innerWidth) * 100;
+    const y = (event.clientY / innerHeight) * 100;
+    document.documentElement.style.setProperty("--mx", x.toFixed(2));
+    document.documentElement.style.setProperty("--my", y.toFixed(2));
+  };
+
+  window.addEventListener("mousemove", handleMove);
+  window.addEventListener("touchmove", (event) => {
+    if (event.touches[0]) {
+      handleMove(event.touches[0]);
+    }
+  });
+};
+
 export const setupContinueButton = () => {
   const button = document.querySelector("#continue-button");
   if (!button) return;

@@ -1,5 +1,6 @@
 import { loadContent, getCourseById } from "./data.js";
 import {
+  enableAmbientBackground,
   enablePageTransition,
   revealOnScroll,
   setupContinueButton,
@@ -8,6 +9,7 @@ import {
 } from "./ui.js";
 
 enablePageTransition();
+enableAmbientBackground();
 setupContinueButton();
 
 const container = document.querySelector("#course-container");
