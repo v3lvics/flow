@@ -1,0 +1,58 @@
+{
+  "id": "telescope-setup",
+  "title": "Telescope Setup Basics",
+  "description": "Set up a small telescope, align the finder, and stabilize your tripod.",
+  "createdAt": "2024-03-14",
+  "durationMinutes": 16,
+  "difficulty": "Intermediate",
+  "tags": ["astronomy", "equipment", "setup"],
+  "courseId": "skywatching-studio",
+  "moduleId": "gear-practice",
+  "tldr": "Level the tripod, align the finder on a distant object, and keep your scope balanced for smoother tracking.",
+  "sections": [
+    {
+      "title": "Tripod stability",
+      "body": "Level the tripod and tighten all joints. Stability reduces shaky views and frustration."
+    },
+    {
+      "title": "Finder alignment",
+      "body": "Aim at a distant object in daylight, center it in the main scope, then align the finder."
+    },
+    {
+      "title": "Balance check",
+      "body": "Ensure the scope is balanced so it moves smoothly without drifting."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Why level the tripod?",
+      "options": [
+        "To reduce shake",
+        "To brighten stars",
+        "To change focus"
+      ],
+      "answerIndex": 0,
+      "explanation": "A stable tripod reduces vibration."
+    },
+    {
+      "question": "When should you align the finder?",
+      "options": [
+        "In daylight",
+        "At midnight",
+        "Only in winter"
+      ],
+      "answerIndex": 0,
+      "explanation": "Daylight alignment is easier and accurate."
+    },
+    {
+      "question": "What does balance affect?",
+      "options": [
+        "Smooth tracking",
+        "Star color",
+        "Battery life"
+      ],
+      "answerIndex": 0,
+      "explanation": "Balanced scopes move smoothly."
+    }
+  ]
+}

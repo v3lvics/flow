@@ -1,0 +1,60 @@
+{
+  "courses": [
+    {
+      "id": "welding-foundations",
+      "title": "Welding Foundations",
+      "description": "Build confident hands-on welding skills with a structured path from safety to clean joints.",
+      "createdAt": "2024-04-10",
+      "difficulty": "Beginner",
+      "estimatedTime": "3h 20m",
+      "estimatedMinutes": 200,
+      "category": "Hands-on Craft",
+      "tags": ["welding", "fabrication", "safety"],
+      "outcomes": [
+        "Set up a safe welding workspace",
+        "Choose the right joints and beads",
+        "Inspect and finish clean welds"
+      ],
+      "modules": [
+        {
+          "id": "welding-basics",
+          "title": "Safety & Setup",
+          "lessons": ["welding-safety", "tools-setup"]
+        },
+        {
+          "id": "welding-technique",
+          "title": "Technique & Finish",
+          "lessons": ["clean-beads", "inspect-finish"]
+        }
+      ]
+    },
+    {
+      "id": "skywatching-studio",
+      "title": "Skywatching Studio",
+      "description": "Understand the night sky with practical observation habits, maps, and telescope basics.",
+      "createdAt": "2024-03-01",
+      "difficulty": "Intermediate",
+      "estimatedTime": "2h 10m",
+      "estimatedMinutes": 130,
+      "category": "Science",
+      "tags": ["astronomy", "science", "observation"],
+      "outcomes": [
+        "Locate key constellations",
+        "Track daily sky changes",
+        "Plan a simple stargazing session"
+      ],
+      "modules": [
+        {
+          "id": "sky-basics",
+          "title": "Night Sky Basics",
+          "lessons": ["constellation-maps", "sky-rhythm"]
+        },
+        {
+          "id": "gear-practice",
+          "title": "Gear & Routine",
+          "lessons": ["telescope-setup", "night-log"]
+        }
+      ]
+    }
+  ]
+}

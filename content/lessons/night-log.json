@@ -1,0 +1,58 @@
+{
+  "id": "night-log",
+  "title": "Night Log Habit",
+  "description": "Track observations with quick notes and build a consistent skywatching routine.",
+  "createdAt": "2024-03-20",
+  "durationMinutes": 9,
+  "difficulty": "Intermediate",
+  "tags": ["astronomy", "habits", "journaling"],
+  "courseId": "skywatching-studio",
+  "moduleId": "gear-practice",
+  "tldr": "Capture date, weather, and what you saw. Small notes make patterns easier to spot over time.",
+  "sections": [
+    {
+      "title": "Log essentials",
+      "body": "Write the date, time, weather, and targets observed. Keep it short so you stay consistent."
+    },
+    {
+      "title": "Pattern spotting",
+      "body": "Look for patterns in visibility or clarity. This helps you choose the best nights."
+    },
+    {
+      "title": "Weekly review",
+      "body": "Review your notes weekly to reinforce what you learned."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What should you record first?",
+      "options": [
+        "Date and time",
+        "Moon color",
+        "Battery level"
+      ],
+      "answerIndex": 0,
+      "explanation": "Start with the basics to keep the log reliable."
+    },
+    {
+      "question": "Why keep notes short?",
+      "options": [
+        "To stay consistent",
+        "To avoid learning",
+        "To skip observations"
+      ],
+      "answerIndex": 0,
+      "explanation": "Short notes help you maintain the habit."
+    },
+    {
+      "question": "When should you review the log?",
+      "options": [
+        "Weekly",
+        "Only yearly",
+        "Never"
+      ],
+      "answerIndex": 0,
+      "explanation": "Weekly review reinforces knowledge."
+    }
+  ]
+}

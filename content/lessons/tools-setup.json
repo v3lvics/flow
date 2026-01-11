@@ -1,0 +1,58 @@
+{
+  "id": "tools-setup",
+  "title": "Tools & Setup",
+  "description": "Learn the core tools, settings, and preparation steps for consistent practice.",
+  "createdAt": "2024-04-14",
+  "durationMinutes": 15,
+  "difficulty": "Beginner",
+  "tags": ["welding", "equipment", "setup"],
+  "courseId": "welding-foundations",
+  "moduleId": "welding-basics",
+  "tldr": "Match your machine settings to the metal thickness. Prepare clean surfaces and keep your torch angle consistent.",
+  "sections": [
+    {
+      "title": "Core equipment",
+      "body": "Understand the welder, clamps, torch, and filler wire. Each part affects stability and bead quality."
+    },
+    {
+      "title": "Surface preparation",
+      "body": "Remove rust, oil, and paint before welding. Clean metal helps the arc stay steady and reduces defects."
+    },
+    {
+      "title": "Dialing settings",
+      "body": "Start with recommended settings, then make small adjustments. Keep notes so you can repeat good results."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What should you do before welding painted metal?",
+      "options": [
+        "Increase voltage",
+        "Clean the surface",
+        "Switch to a larger torch"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clean surfaces improve stability and safety."
+    },
+    {
+      "question": "Why keep a settings log?",
+      "options": [
+        "To repeat successful results",
+        "To buy more gas",
+        "To change helmet tint"
+      ],
+      "answerIndex": 0,
+      "explanation": "Recording settings helps you learn faster."
+    },
+    {
+      "question": "Which part holds your work steady?",
+      "options": [
+        "Ground clamp",
+        "Helmet",
+        "Wire brush"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clamps secure the metal and complete the circuit."
+    }
+  ]
+}

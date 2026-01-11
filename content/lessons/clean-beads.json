@@ -1,0 +1,58 @@
+{
+  "id": "clean-beads",
+  "title": "Clean Beads & Joint Control",
+  "description": "Practice torch angle, travel speed, and bead rhythm for neat joints.",
+  "createdAt": "2024-04-18",
+  "durationMinutes": 18,
+  "difficulty": "Beginner",
+  "tags": ["welding", "technique", "control"],
+  "courseId": "welding-foundations",
+  "moduleId": "welding-technique",
+  "tldr": "A steady travel speed and consistent torch angle create clean, even beads. Focus on rhythm over speed.",
+  "sections": [
+    {
+      "title": "Torch angle",
+      "body": "Keep a 10–15 degree push or pull angle depending on the process. Consistency matters more than perfection."
+    },
+    {
+      "title": "Travel speed",
+      "body": "Move slow enough for the puddle to wet both sides of the joint. If it piles up, you are too slow."
+    },
+    {
+      "title": "Rhythm practice",
+      "body": "Use short, repeatable motions. Practice on scrap to build muscle memory before working on projects."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What happens when you move too fast?",
+      "options": [
+        "Shallow penetration",
+        "Cooler sparks",
+        "Cleaner metal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Moving too fast prevents proper fusion."
+    },
+    {
+      "question": "What helps keep beads consistent?",
+      "options": [
+        "Random torch angle",
+        "A steady rhythm",
+        "Skipping practice"
+      ],
+      "answerIndex": 1,
+      "explanation": "Consistency comes from repeatable motions."
+    },
+    {
+      "question": "Where should you practice?",
+      "options": [
+        "On scrap metal",
+        "On finished parts",
+        "On painted steel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scrap lets you practice safely."
+    }
+  ]
+}
