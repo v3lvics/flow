@@ -1,0 +1,58 @@
+{
+  "id": "inspect-finish",
+  "title": "Inspect & Finish",
+  "description": "Check for defects, clean slag, and finish welds with confidence.",
+  "createdAt": "2024-04-22",
+  "durationMinutes": 14,
+  "difficulty": "Beginner",
+  "tags": ["welding", "inspection", "finishing"],
+  "courseId": "welding-foundations",
+  "moduleId": "welding-technique",
+  "tldr": "Inspect the bead for uniformity, clean it, and finish with light grinding only when needed.",
+  "sections": [
+    {
+      "title": "Visual inspection",
+      "body": "Look for even bead width, proper tie-in, and minimal spatter. Small defects are easier to fix early."
+    },
+    {
+      "title": "Cleaning slag",
+      "body": "Chipping and brushing remove slag and reveal the true bead. Clean metal helps you learn faster."
+    },
+    {
+      "title": "Finishing touches",
+      "body": "Use light grinding only when required. Over-grinding can weaken the joint and remove good weld."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What should you check first after welding?",
+      "options": [
+        "Bead uniformity",
+        "Paint color",
+        "Torch handle"
+      ],
+      "answerIndex": 0,
+      "explanation": "Uniformity indicates consistent technique."
+    },
+    {
+      "question": "Why avoid heavy grinding?",
+      "options": [
+        "It weakens the joint",
+        "It makes slag thicker",
+        "It increases voltage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Too much grinding removes good weld material."
+    },
+    {
+      "question": "What reveals the true bead?",
+      "options": [
+        "Skipping cleaning",
+        "Removing slag",
+        "Adding paint"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cleaning exposes the bead for inspection."
+    }
+  ]
+}

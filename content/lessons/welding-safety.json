@@ -1,0 +1,58 @@
+{
+  "id": "welding-safety",
+  "title": "Welding Safety Essentials",
+  "description": "Set up a safe workspace, understand protective gear, and prevent common accidents.",
+  "createdAt": "2024-04-12",
+  "durationMinutes": 12,
+  "difficulty": "Beginner",
+  "tags": ["welding", "safety", "gear"],
+  "courseId": "welding-foundations",
+  "moduleId": "welding-basics",
+  "tldr": "Welding is safe when you control heat, sparks, and ventilation. Start with PPE, clear your area, and check equipment before each session.",
+  "sections": [
+    {
+      "title": "Personal protective equipment",
+      "body": "Always wear a properly rated helmet, gloves, jacket, and boots. Your goal is to protect eyes, skin, and lungs from heat, light, and fumes."
+    },
+    {
+      "title": "Workspace checklist",
+      "body": "Remove flammable materials, secure your cables, and confirm a fire extinguisher is within reach. Good airflow reduces fume exposure."
+    },
+    {
+      "title": "Pre-weld inspection",
+      "body": "Check torch condition, gas connections, and ground clamps. A quick inspection prevents most beginner mistakes."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the first priority before striking an arc?",
+      "options": [
+        "Adjusting the bead width",
+        "Putting on PPE",
+        "Choosing filler wire"
+      ],
+      "answerIndex": 1,
+      "explanation": "Protective equipment is always step one."
+    },
+    {
+      "question": "Why is ventilation important?",
+      "options": [
+        "It reduces fume exposure",
+        "It makes metal cool faster",
+        "It improves bead color"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ventilation protects your lungs from welding fumes."
+    },
+    {
+      "question": "What should be within reach?",
+      "options": [
+        "A fire extinguisher",
+        "Extra steel plates",
+        "A paint sprayer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fire safety tools should always be close."
+    }
+  ]
+}
