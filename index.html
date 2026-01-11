@@ -3,6 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MonoLearn — Learn Anything</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <main class="shell">
+    <section class="hero">
+      <p class="hero__eyebrow">MonoLearn · Curated learning pages</p>
+      <h1>What do you want to learn today?</h1>
+      <p class="hero__sub">
+        Type a topic, explore focused pages, and keep your learning calm, intentional, and
+        black &amp; white.
+      </p>
+
+      <label class="search" for="search-input">
+        <span>Search anything you want to learn</span>
+        <div class="search__field">
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Try welding, astronomy, or UX design"
+            autocomplete="off"
+          />
+          <button type="button" id="clear-search">Clear</button>
+        </div>
+      </label>
+    </section>
+
+    <section class="results">
+      <div class="results__header">
+        <h2>Learning pages</h2>
+        <p id="results-count">0 results</p>
+      </div>
+      <div class="results__grid" id="results-grid"></div>
+    </section>
+  </main>
+
   <title>FlowLearn — Learn Anything, Smoothly</title>
   <link rel="stylesheet" href="styles.css" />
 </head>

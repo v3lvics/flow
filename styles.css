@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+:root {
+  color-scheme: dark;
+  --bg: #0b0b0b;
+  --bg-soft: #121212;
+  --text: #f5f5f5;
+  --muted: #9a9a9a;
+  --line: rgba(255, 255, 255, 0.15);
+  --mx: 50;
+  --my: 50;
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap");
 
 :root {
@@ -15,6 +26,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
   font-family: "Manrope", sans-serif;
 }
 
@@ -34,6 +55,29 @@ a {
   position: fixed;
   inset: 0;
   z-index: -1;
+  background:
+    radial-gradient(
+      circle at calc(var(--mx) * 1%) calc(var(--my) * 1%),
+      rgba(255, 255, 255, 0.18),
+      transparent 45%
+    ),
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.06), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.05), transparent 45%),
+    linear-gradient(180deg, #0b0b0b 0%, #111111 100%);
+  transition: background 0.3s ease;
+}
+
+.shell {
+  min-height: 100vh;
+  display: grid;
+  gap: 60px;
+  padding: 80px 10vw 100px;
+}
+
+.hero {
+  max-width: 720px;
+  display: grid;
+  gap: 20px;
   overflow: hidden;
 }
 
@@ -135,6 +179,180 @@ a {
 
 .hero__eyebrow {
   text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.05;
+}
+
+.hero__sub {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.search {
+  display: grid;
+  gap: 12px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 22px;
+}
+
+.search span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.search__field {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.search__field input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  padding: 12px 6px;
+  font-size: 1.05rem;
+  outline: none;
+}
+
+.search__field button {
+  background: var(--text);
+  color: #0a0a0a;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.results {
+  display: grid;
+  gap: 20px;
+}
+
+.results__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+
+.results__header p {
+  color: var(--muted);
+}
+
+.results__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.card__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card__desc {
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.card__thumb {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: #0b0b0b;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.card__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 80px 10vw 100px;
+  display: grid;
+  gap: 24px;
+}
+
+.page a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.page__title {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+}
+
+.page__meta {
+  color: var(--muted);
+}
+
+.page__card {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 720px) {
+  .shell {
+    padding: 60px 8vw 80px;
+  }
+
+  .results__header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .search__field {
+    flex-direction: column;
+    align-items: stretch;
   letter-spacing: 0.2em;
   font-size: 0.75rem;
   color: var(--accent);
