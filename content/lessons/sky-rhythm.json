@@ -1,0 +1,58 @@
+{
+  "id": "sky-rhythm",
+  "title": "Sky Rhythm & Motion",
+  "description": "Understand how the sky shifts hourly and seasonally so you can plan sessions.",
+  "createdAt": "2024-03-08",
+  "durationMinutes": 13,
+  "difficulty": "Beginner",
+  "tags": ["astronomy", "planning", "motion"],
+  "courseId": "skywatching-studio",
+  "moduleId": "sky-basics",
+  "tldr": "The sky moves about 15 degrees per hour. Plan short sessions, and note seasonal shifts to find targets faster.",
+  "sections": [
+    {
+      "title": "Hourly drift",
+      "body": "Stars appear to move westward as Earth rotates. Short sessions keep your targets in view."
+    },
+    {
+      "title": "Seasonal changes",
+      "body": "Constellations shift across seasons. Keep a simple calendar of what appears in each month."
+    },
+    {
+      "title": "Session planning",
+      "body": "Pick two targets per session. This reduces decision fatigue and makes learning steady."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How fast does the sky appear to move?",
+      "options": [
+        "15 degrees per hour",
+        "1 degree per hour",
+        "50 degrees per hour"
+      ],
+      "answerIndex": 0,
+      "explanation": "The sky appears to move ~15° each hour."
+    },
+    {
+      "question": "Why keep sessions short?",
+      "options": [
+        "Targets stay visible",
+        "It changes the moon phase",
+        "It avoids using charts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Short sessions reduce drift issues."
+    },
+    {
+      "question": "What helps track seasonal shifts?",
+      "options": [
+        "A simple calendar",
+        "A larger telescope",
+        "A phone flashlight"
+      ],
+      "answerIndex": 0,
+      "explanation": "A calendar helps you remember what appears each month."
+    }
+  ]
+}

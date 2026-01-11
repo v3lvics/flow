@@ -1,0 +1,58 @@
+{
+  "id": "constellation-maps",
+  "title": "Constellation Maps",
+  "description": "Learn how to read sky maps and locate major seasonal constellations.",
+  "createdAt": "2024-03-02",
+  "durationMinutes": 11,
+  "difficulty": "Beginner",
+  "tags": ["astronomy", "maps", "navigation"],
+  "courseId": "skywatching-studio",
+  "moduleId": "sky-basics",
+  "tldr": "Sky maps are time-based snapshots. Match the map to your date and rotate it to align with your horizon.",
+  "sections": [
+    {
+      "title": "Reading the chart",
+      "body": "Use the date and time ring on a planisphere to align the map with the sky. Rotate until the horizon matches."
+    },
+    {
+      "title": "Seasonal anchors",
+      "body": "Start with bright constellations like Orion or Ursa Major. They anchor you when the sky feels unfamiliar."
+    },
+    {
+      "title": "Practice routine",
+      "body": "Spend five minutes locating two constellations each night. Small wins build confidence."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does a sky map represent?",
+      "options": [
+        "A fixed view",
+        "A time-based snapshot",
+        "Only the southern sky"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maps change with time and date."
+    },
+    {
+      "question": "Why start with bright constellations?",
+      "options": [
+        "They guide your orientation",
+        "They appear every night",
+        "They require telescopes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bright constellations help you orient quickly."
+    },
+    {
+      "question": "How long should nightly practice be?",
+      "options": [
+        "About five minutes",
+        "An entire hour",
+        "Less than one minute"
+      ],
+      "answerIndex": 0,
+      "explanation": "Short sessions keep the habit consistent."
+    }
+  ]
+}
